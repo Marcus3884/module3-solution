@@ -8,6 +8,8 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+/** Navigation Bar **/
+
 #header-nav {
     background-color: #414040;
     border-radius: 0;
@@ -15,12 +17,16 @@ body {
     height: auto;
 }
 
+.navbar-nav {
+    margin: -0.5px -15px;}
+
 .navbar>.container-fluid .navbar-brand {
     margin-left: 0;
 }
 
 .navbar-brand {
     height: auto;
+    padding: 15px 20px;
     
 }
 
@@ -47,14 +53,40 @@ body {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    background-color: #8f3d38;
+    font-weight: 700;
+}
 
+#nav-list a:hover{
+    background: #8c8c8c;}
+
+
+/** Encabezado **/
+
+h3{
+    padding-top: 10px;
 }
 
 
-a {
-    color: #fff;
-    text-decoration: none;
+
+
+p {
+    padding: 0 15px 8px 15px;
 }
+
+
+
+.section-tile {
+    height: auto;
+    background-color: #393636;
+}
+
+
+
+    
+
+
+
 
 
 
